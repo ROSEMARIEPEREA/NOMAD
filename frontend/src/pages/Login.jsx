@@ -55,9 +55,6 @@ export default function Login() {
           <Link to="/signup">Create account</Link>
           <Link to="/forgot-password">Forgot password?</Link>
         </div>
-        <div className="mt-3 small text-muted">
-          Demo accounts (seeded): leader@company.com / member1@company.com / member2@company.com — password: Password123!
-        </div>
       </div>
     </div>
   );
