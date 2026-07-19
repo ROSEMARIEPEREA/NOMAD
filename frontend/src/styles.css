@@ -1,0 +1,47 @@
+body {
+  background: #f4f6fb;
+}
+.kanban-column {
+  background: #eef1f8;
+  border-radius: 8px;
+  min-height: 400px;
+  padding: 10px;
+}
+.kanban-card {
+  background: white;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+}
+.kanban-card.dragging {
+  opacity: 0.5;
+}
+.chat-window {
+  height: 360px;
+  overflow-y: auto;
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #e0e3ec;
+}
+.msg-bubble {
+  max-width: 70%;
+  padding: 6px 12px;
+  border-radius: 14px;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+.msg-mine {
+  background: #4f6ef7;
+  color: white;
+  margin-left: auto;
+  display: block;
+  width: fit-content;
+}
+.msg-theirs {
+  background: #e7e9f2;
+  display: block;
+  width: fit-content;
+}
