@@ -201,7 +201,7 @@ export default function SchedulePanel({ user, contacts }) {
           )}
         </div>
 
-        <h5>Team Calendar (converted per member's own time zone, and yours)</h5>
+        <h5>Team Calendar</h5>
         <table className="table table-sm table-bordered bg-white">
           <thead>
             <tr>
